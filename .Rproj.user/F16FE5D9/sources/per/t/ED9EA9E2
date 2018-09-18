@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1537148181022.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3531880858",
+    "id" : "ED9EA9E2",
+    "lastKnownWriteTime" : 1537159212,
+    "last_content_update" : 1537159212718,
+    "path" : "C:/Users/giant/Google Drive/School Stuff/Coursera/Data Science Specialization/Getting and Cleaning Data/Course Project/run_analysis.R",
+    "project_path" : "run_analysis.R",
+    "properties" : {
+        "cursorPosition" : "10,0",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

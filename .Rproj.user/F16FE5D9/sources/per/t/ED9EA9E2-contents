@@ -1,0 +1,10 @@
+fileURL <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+library(data.table)
+download.file(fileURL,"./UCI HAR Dataset.zip")
+unzip("UCI HAR Dataset.zip",exdir = getwd())
+
+features <- read.csv('./UCI HAR Dataset/features.txt', header = FALSE,sep = ' ')
+features <- as.character(features[,2])
+
+data.train.x <- read.table('./UCI HAR Dataset/train/X_train.txt')
+data.train.activity <- read.csv('./UCI HAR Dataset/train/y_train.txt',header = FALSE,sep = ' ')
